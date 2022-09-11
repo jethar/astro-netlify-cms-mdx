@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "dev": "npx netlify-cms-proxy-server & astro dev",
+    "dev": "concurrently --kill-others \"npx netlify-cms-proxy-server\" \"astro dev\"",
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
