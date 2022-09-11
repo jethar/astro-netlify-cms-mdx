@@ -3,16 +3,17 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "dev": "astro dev",
+    "dev": "npx netlify-cms-proxy-server & astro dev",
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^1.2.1",
     "@astrojs/mdx": "^0.11.1",
     "@astrojs/rss": "^1.0.0",
-    "@astrojs/sitemap": "^1.0.0"
+    "@astrojs/sitemap": "^1.0.0",
+    "astro": "^1.2.1",
+    "netlify-cms-widget-mdx": "^0.5.0"
   }
 }
