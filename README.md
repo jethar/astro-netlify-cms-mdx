@@ -1,10 +1,12 @@
-# Astro Starter Kit: Blog
+# Astro Starter Kit: Netlify CMS
+
+> **WARNING:**: This is a non-working version for debug purposes.
 
 ```
-npm init astro -- --template blog
+npm init astro -- --template jethar/astro-netlify-cms-mdx
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github//jethar/astro-netlify-cms-mdx)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/jethar/astro-netlify-cms-mdx)
 
 > 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
